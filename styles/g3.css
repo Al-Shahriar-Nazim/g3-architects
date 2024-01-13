@@ -131,7 +131,7 @@ main {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.features-img img{
+.features-img img {
   height: 90%;
   margin-left: 90px;
 }
@@ -207,7 +207,21 @@ main {
   font-size: 3.5rem;
   font-weight: 700;
 }
-
+/* footer section styles */
+footer {
+  max-width: 1440px;
+  margin: 70px auto;
+  border-radius: 8px;
+  background: #fff4e7;
+  margin-top: 130px;
+}
+.footer-design {
+  padding: 40px 400px;
+  color: #424242;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
 /* media queries */
 /* mobile phone */
 @media screen and (max-width: 576px) {
@@ -225,11 +239,11 @@ main {
   .sponspors-img-containers {
     flex-direction: column;
   }
-  .features-img img{
+  .features-img img {
     width: 100%;
     margin-left: 0px;
   }
-  .ten-years-badge{
+  .ten-years-badge {
     width: 80%;
     position: static;
   }
@@ -260,6 +274,9 @@ main {
   .card img {
     gap: 20px;
   }
+  .footer-design {
+    padding: 30px;
+      }
 }
 /* medium  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -269,7 +286,7 @@ main {
   .teams-container {
     flex-direction: column;
   }
-  .features-img img{
+  .features-img img {
     width: 100%;
     margin-left: 0px;
   }
@@ -290,5 +307,8 @@ main {
   }
   .sponspors-img-containers {
     flex-direction: column;
+  }
+  .footer-design {
+padding: 30px;
   }
 }
